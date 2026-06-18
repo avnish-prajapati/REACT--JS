@@ -1,66 +1,73 @@
-import React from 'react'
+import React from "react";
+import Navbar from "../components/Navbar";
 
 export default function About() {
   return (
-    
-    <section className="container-fluid py-5">
-  <div className="container d-flex justify-content-center">
-    <div className="card mb-3 p-4 shadow-lg border-0" style={{ maxWidth: 980 }}>
-      <div className="row g-0 align-items-center">
-        
-       
-        <div className="col-md-4 text-center">
-          <img
-            src="https://cdn-icons-png.flaticon.com/512/6062/6062646.png"
-            className="img-fluid"
-            alt="Developer Illustration"
-            style={{ maxHeight: "300px" }}
-          />
-        </div>
+    <>
+      <section className="container py-5">
+        <h1 className="text-center fw-bold mb-5">About</h1>
 
-        
-        <div className="col-md-8">
-          <div className="card-body">
-            <h2 className="card-title fw-bold mb-3">👨‍💻 About Me</h2>
+        <div
+          className="border border-secondary-subtle rounded-4 p-4 p-lg-5"
+          style={{
+            borderWidth: "1px",
+            backgroundColor: "rgba(255,255,255,0.4)",
+          }}
+        >
+          <div className="row align-items-center g-5">
+            {/* Animation */}
+            <div className="col-lg-5 text-center">
+              <img
+                src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"
+                alt="Developer Animation"
+                className="img-fluid"
+                style={{
+                  maxHeight: "350px",
+                  borderRadius: "20px",
+                }}
+              />
+            </div>
 
-            <p className="card-text">
-              <span className="fs-3 fw-bold">
-                Hi, I'm Avnish Kumar Prajapati!
-              </span>
-              <br />
-              I am a passionate <strong>Full Stack Developer</strong> and an
-              enthusiastic <strong>MongoDB Learner</strong> who enjoys building
-              modern, responsive, and user-friendly web applications. I love
-              transforming ideas into real-world digital solutions using
-              technologies like React.js, Node.js, Express.js, and MongoDB.
-            </p>
+            {/* Content */}
+            <div className="col-lg-7">
+              <h2 className="fw-bold mb-4">Hi, I'm Avnish Kumar Prajapati</h2>
 
-            <p className="card-text">
-              🚀 My focus is on creating clean, scalable, and efficient
-              applications while continuously improving my development skills.
-              I enjoy learning new technologies, solving challenging problems,
-              and writing maintainable code that delivers great user
-              experiences.
-            </p>
+              <p className="fs-5 text-secondary lh-lg">
+                I’m a passionate <strong>Full Stack Developer</strong> and an
+                enthusiastic <strong>MongoDB Learner</strong> who loves building
+                modern, responsive, and user-friendly web applications.
+              </p>
 
-            <p className="card-text">
-              💡 I believe in continuous learning, teamwork, and innovation.
-              Whether it's developing a full-stack project, optimizing
-              performance, or exploring new backend concepts, I'm always eager
-              to grow as a developer and contribute to impactful projects.
-            </p>
+              <p className="fs-5 text-secondary lh-lg">
+                My primary technologies include{" "}
+                <strong>React.js, Node.js, Express.js, and MongoDB</strong>. I
+                enjoy turning ideas into real-world digital products while
+                focusing on clean code and scalable architecture.
+              </p>
 
-            <p className="card-text">
-              🎯 Currently, I'm expanding my expertise in MongoDB, backend
-              architecture, and modern web technologies while building projects
-              that strengthen my problem-solving and development skills.
-            </p>
+              <p className="fs-5 text-secondary lh-lg">
+                I believe in continuous learning and constantly challenge myself
+                to improve my development skills, explore new technologies, and
+                solve real-world problems through code.
+              </p>
+
+              <p className="fs-5 text-secondary lh-lg">
+                Currently, I'm deepening my knowledge of backend development,
+                database design, and full-stack application architecture while
+                building projects that strengthen my problem-solving abilities.
+              </p>
+
+              {/* Tech Stack */}
+              <div className="mt-4">
+                <span className="badge bg-dark fs-6 me-2 p-2">React.js</span>
+                <span className="badge bg-dark fs-6 me-2 p-2">Node.js</span>
+                <span className="badge bg-dark fs-6 me-2 p-2">Express.js</span>
+                <span className="badge bg-dark fs-6 p-2">MongoDB</span>
+              </div>
+            </div>
           </div>
         </div>
-
-      </div>
-    </div>
-  </div>
-</section>
-  )
+      </section>
+    </>
+  );
 }
