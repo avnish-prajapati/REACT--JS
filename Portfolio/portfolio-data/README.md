@@ -1,16 +1,51 @@
-# React + Vite
+# OUTPUT :- https://drive.google.com/file/d/1oYtS6hqkj6-PBVSYGUuCdDULKvqPMKzH/view?usp=sharing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Personal Portfolio Website
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A modern and responsive personal portfolio website developed using React.js and Bootstrap. The application is designed to showcase my profile, projects, technical skills, and contact information through a clean and user-friendly interface.
 
-## React Compiler
+## Components Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Navbar** – Navigation links for Home, Projects, Skills, About, and Contact sections.
+* **Profile Section** – Introduction, professional summary, and developer information.
+* **Projects Section** – Displays featured projects with descriptions and GitHub repository links.
+* **Skills Section** – Showcases technical skills and development tools.
+* **About Section** – Provides detailed information about my learning journey and career objectives.
+* **Contact Section** – Includes a contact form for user interaction.
+* **Footer** – Displays copyright information and portfolio details.
 
-## Expanding the ESLint configuration
+## Screens / Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Home / Profile Screen
+* Projects Screen
+* Skills Screen
+* About Screen
+* Contact Screen
+
+## Routing
+
+The application uses **React Router DOM** for client-side navigation between different sections and pages.
+
+## Protected Routes
+
+Protected routing has been implemented to restrict access to specific pages. The `ProtectedRoute` component checks the user's authentication status and redirects unauthenticated users to the login page, ensuring secure navigation within the application.
+
+## Technologies Used
+
+* React.js
+* React Router DOM
+* Bootstrap 5
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Git & GitHub
+
+## Features
+
+* Responsive and mobile-friendly design
+* Component-based architecture
+* Protected route implementation
+* Clean and modern user interface
+* Project showcase with external links
+* Organized sections for profile, skills, projects, and contact information
