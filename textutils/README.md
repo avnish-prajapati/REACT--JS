@@ -29,7 +29,7 @@ TextUtils is a modern React-based web application that allows users to analyze a
 The application will run locally at:
 
 ```bash
-
+http://localhost:5173/
 ```
 
 ## 🎯 Key Learnings
