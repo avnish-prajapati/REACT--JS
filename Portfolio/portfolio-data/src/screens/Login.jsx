@@ -31,49 +31,55 @@ export default function Home() {
 
   return (
     <>
-      <div className="container w-25 mt-5 border p-5 pt-0">
+      <div className="container w-25 mt-5 border border-dark rounded-4 p-5 bg-white">
+        <h2 className="text-center fw-bold mb-4">Login</h2>
+
         <div className="mb-3">
-          <label htmlFor="exampleInputEmail1" className="form-label">
-            Email address
+          <label htmlFor="exampleInputEmail1" className="form-label fw-bold">
+            Email Address
           </label>
+
           <input
             onChange={getEmail}
             type="email"
-            className="form-control"
+            className="form-control border-dark"
             id="exampleInputEmail1"
-            aria-describedby="emailHelp"
+            placeholder="Enter your email"
           />
-          <div id="emailHelp" className="form-text">
+
+          <div id="emailHelp" className="form-text text-secondary">
             We'll never share your email with anyone else.
           </div>
         </div>
+
         <div className="mb-3">
-          <label htmlFor="exampleInputPassword1" className="form-label">
+          <label htmlFor="exampleInputPassword1" className="form-label fw-bold">
             Password
           </label>
+
           <input
             onChange={getPassword}
             type="password"
-            className="form-control"
+            className="form-control border-dark"
             id="exampleInputPassword1"
+            placeholder="Enter your password"
           />
         </div>
-        <div className="mb-3 form-check">
+
+        <div className="mb-4 form-check">
           <input
             type="checkbox"
-            className="form-check-input"
+            className="form-check-input border-dark"
             id="exampleCheck1"
           />
-          <label className="form-check-label" htmlFor="exampleCheck1">
-            Check me out
-          </label>
         </div>
+
         <button
           onClick={handlerLogin}
           type="submit"
-          className="btn btn-primary"
+          className="btn btn-dark w-100 fw-bold py-2"
         >
-          Submit
+          Login
         </button>
       </div>
     </>

@@ -10,7 +10,7 @@ export default function Navbar() {
         <nav className="navbar navbar-expand-lg bg-body-tertiary mb-4">
           <div className="container">
             <Link to="/home" className="navbar-brand fw-bold fs-4">
-              AvnishKumar
+              Avnish Kumar Prajapati
             </Link>
 
             <button
