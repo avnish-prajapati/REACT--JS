@@ -1,16 +1,57 @@
-# React + Vite
+# 🚀 TextUtils
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📸 Demo Video: 
 
-Currently, two official plugins are available:
+TextUtils is a modern React-based web application that allows users to analyze and transform text quickly and efficiently through a clean, responsive, and user-friendly interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Key Features
 
-## React Compiler
+- 🔤 Convert text to UPPERCASE
+- 🔡 Convert text to lowercase
+- 📝 Remove extra spaces from text
+- 📊 Real-time Word Count
+- 🔢 Character Count
+- ⏱️ Estimated Reading Time
+- 👀 Live Text Preview
+- 🗑️ Clear Text Instantly
+- 📋 Copy text to Clipboard
+- 🌙 Light and Dark Mode Support
+- 📱 Fully Responsive Design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript (ES6+)
+- Bootstrap 5
+- HTML5
+- CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application will run locally at:
+
+```bash
+
+```
+
+## 🎯 Key Learnings
+
+This project demonstrates:
+
+- React Functional Components
+- React Hooks (`useState`)
+- State Management
+- Event Handling
+- Conditional Rendering
+- Real-Time UI Updates
+- Text Processing Logic
+- Responsive UI Design
+- Component-Based Architecture
+
+## 📌 Project Purpose
+
+TextUtils was built to provide a fast and efficient way to perform common text operations while strengthening core React development skills and modern frontend development practices.
+
+## 👨‍💻 Developer
+
+**Avnish Prajapati**
+
+GitHub: **@AvnishPrajapati**
