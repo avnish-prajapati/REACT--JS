@@ -1,0 +1,151 @@
+/* TextUtils.css */
+
+body {
+  background: #f4f7fc;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 25px;
+}
+
+.form-control {
+  border-radius: 12px;
+  border: 2px solid #dfe6e9;
+  padding: 15px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 10px rgba(79, 70, 229, 0.25);
+}
+
+.form-floating label {
+  color: #6c757d;
+}
+
+p {
+  min-height: 100px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  border-left: 5px solid #4f46e5;
+  color: #333;
+  word-wrap: break-word;
+  margin-top: 20px;
+}
+
+.d-flex {
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 22px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: #4f46e5;
+}
+
+.btn-primary:hover {
+  background: #4338ca;
+  transform: translateY(-2px);
+}
+
+.btn-success {
+  background: #16a34a;
+}
+
+.btn-success:hover {
+  background: #15803d;
+  transform: translateY(-2px);
+}
+
+hr {
+  margin: 25px 0;
+  opacity: 0.2;
+}
+
+li {
+  list-style: none;
+  background: #eef2ff;
+  padding: 12px 18px;
+  margin-top: 12px;
+  border-radius: 10px;
+  font-weight: 500;
+  color: #374151;
+  border-left: 4px solid #4f46e5;
+}
+
+li:nth-child(2) {
+  border-left-color: #16a34a;
+}
+
+li:nth-child(3) {
+  border-left-color: #f59e0b;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .d-flex {
+    flex-direction: column;
+  }
+}
+
+.stats-container {
+  display: flex;
+  gap: 15px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  flex: 1;
+  min-width: 180px;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
+  color: white;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.2);
+}
+
+.stat-card h5 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.stat-card p {
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
