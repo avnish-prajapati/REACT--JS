@@ -10,7 +10,7 @@ export default function project() {
         <div className="col-lg-4">
           <div className="p-4 border rounded-4 h-100 bg-light">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThI6_T9T0ZLCcwG4FVr4DSWT4OlzVUvTqwbw&s"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLm1OhCc7qLUgeCF_YnTXqJtmBB5nAz8xs8o5Ag8onjtTIsdHkAVfuRQ1o&s=10"
               alt="E-Commerce"
               className="img-fluid rounded-4 mb-3"
               style={{ height: "220px", width: "100%", objectFit: "cover" }}
@@ -38,7 +38,7 @@ export default function project() {
         <div className="col-lg-4">
           <div className="p-4 border rounded-4 h-100 bg-light">
             <img
-              src="https://img.magnific.com/free-vector/modern-stylish-problem-solving-faq-symbol-background-design_1017-58258.jpg?semt=ais_hybrid&w=740&q=80"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1zGttlaL87k_zOcdy3VRM63qwV2EUXoz4Uglu0KN2oEflBkCoarPUOcxy&s=10"
               alt="Quiz App"
               className="img-fluid rounded-4 mb-3"
               style={{ height: "220px", width: "100%", objectFit: "cover" }}
@@ -66,7 +66,7 @@ export default function project() {
         <div className="col-lg-4">
           <div className="p-4 border rounded-4 h-100 bg-light">
             <img
-              src="https://plus.unsplash.com/premium_photo-1669652639337-c513cc42ead6?fm=jpg&q=60&w=3000&auto=format&fit=crop"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtjH5pTJcBU7_oj-E4bmHb_fzaZbJFmcTxwoDeBaeeZzcFeUPfkOyCl7U&s=10"
               alt="Book API Store"
               className="img-fluid rounded-4 mb-3"
               style={{ height: "220px", width: "100%", objectFit: "cover" }}
