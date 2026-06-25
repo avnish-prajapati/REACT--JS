@@ -56,10 +56,13 @@ export default function Profile() {
           <h1 className="text-center">Tech-Stack</h1>
         </div> */}
       </div>
+      
       {/* Project */}
-      <section className="container py-5 my-5">
-        <h1 className="text-center fw-bold mb-5">My Projects</h1>
+      
+    <section className="container py-5 my-5">
+      <h1 className="text-center fw-bold mb-5">My Projects</h1>
 
+<<<<<<< HEAD
         <div className="row g-4">
           {/* Project 1 */}
           <div className="col-lg-4">
@@ -70,14 +73,27 @@ export default function Profile() {
                 className="img-fluid rounded-4 mb-3"
                 style={{ height: "220px", width: "100%", objectFit: "cover" }}
               />
+=======
+      <div className="row g-4">
+        {/* Project 1 */}
+        <div className="col-lg-4">
+          <div className="p-4 border rounded-4 h-100 bg-light">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLm1OhCc7qLUgeCF_YnTXqJtmBB5nAz8xs8o5Ag8onjtTIsdHkAVfuRQ1o&s=10"
+              alt="E-Commerce"
+              className="img-fluid rounded-4 mb-3"
+              style={{ height: "220px", width: "100%", objectFit: "cover" }}
+            />
+>>>>>>> ec2d5a2bad72eb6be95d64394196cb75d78bd2f9
 
-              <h4 className="fw-bold">🛒 E-Commerce</h4>
+            <h4 className="fw-bold">🛒 E-Commerce</h4>
 
-              <p className="text-secondary mt-3">
-                A responsive shopping application built using JavaScript with
-                product listing, cart management, and interactive UI.
-              </p>
+            <p className="text-secondary mt-3">
+              A responsive shopping application built using JavaScript with
+              product listing, cart management, and interactive UI.
+            </p>
 
+<<<<<<< HEAD
               <a
                 href="https://github.com/avnish-prajapati/JAVASCRIPT/tree/main/JAVASCRIPT%20REVISION/DAY%20-%201/Ecart%20list"
                 target="_blank"
@@ -143,9 +159,79 @@ export default function Profile() {
                 View Project
               </a>
             </div>
+=======
+            <a
+              href="https://github.com/avnish-prajapati/JAVASCRIPT/tree/main/JAVASCRIPT%20REVISION/DAY%20-%201/Ecart%20list"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-dark rounded-pill mt-2"
+            >
+              View Project
+            </a>
+>>>>>>> ec2d5a2bad72eb6be95d64394196cb75d78bd2f9
           </div>
         </div>
-      </section>
+
+        {/* Project 2 */}
+        <div className="col-lg-4">
+          <div className="p-4 border rounded-4 h-100 bg-light">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1zGttlaL87k_zOcdy3VRM63qwV2EUXoz4Uglu0KN2oEflBkCoarPUOcxy&s=10"
+              alt="Quiz App"
+              className="img-fluid rounded-4 mb-3"
+              style={{ height: "220px", width: "100%", objectFit: "cover" }}
+            />
+
+            <h4 className="fw-bold">🧠 Quiz App</h4>
+
+            <p className="text-secondary mt-3">
+              An interactive quiz application featuring multiple questions,
+              score calculation, and dynamic JavaScript functionality.
+            </p>
+
+            <a
+              href="https://github.com/avnish-prajapati/JAVASCRIPT/tree/main/JAVASCRIPT%20REVISION/DAY%20-%201/QUIZZ%20APP"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-dark rounded-pill mt-2"
+            >
+              View Project
+            </a>
+          </div>
+        </div>
+
+        {/* Project 3 */}
+        <div className="col-lg-4">
+          <div className="p-4 border rounded-4 h-100 bg-light">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtjH5pTJcBU7_oj-E4bmHb_fzaZbJFmcTxwoDeBaeeZzcFeUPfkOyCl7U&s=10"
+              alt="Book API Store"
+              className="img-fluid rounded-4 mb-3"
+              style={{ height: "220px", width: "100%", objectFit: "cover" }}
+            />
+
+            <h4 className="fw-bold">📚 Book API Store</h4>
+
+            <p className="text-secondary mt-3">
+              A book browsing application powered by APIs that allows users to
+              discover and explore books with a clean interface.
+            </p>
+
+            <a
+              href="https://github.com/avnish-prajapati/JAVASCRIPT/tree/main/BOOK%20API%20-%20APPLICATION"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-dark rounded-pill mt-2"
+            >
+              View Project
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
       {/* skills */}
       <section className="container py-5">
         <h1 className="text-center fw-bold mb-5">
