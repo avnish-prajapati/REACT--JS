@@ -5,29 +5,57 @@ export default function Skills() {
   return (
     <>
       {" "}
-      <section className="container">
-        <div className="container">
-          <h1 className="text-center fs-1 text-black fw-bold">Skills</h1>
-          <div className="container text-center">
-            <div className="row">
-              <div className="col shadow rounded-2 p-3 m-2">HTML5</div>
-              <div className="col shadow rounded-2 p-3 m-2">CSS3</div>
-              <div className="col shadow rounded-2 p-3 m-2">JavaScript</div>
+      <section className="container py-5">
+        <h1 className="text-center fw-bold mb-5">
+          My <span className="text">Skills</span>
+        </h1>
+
+        <div className="row g-4 justify-content-center">
+          <div className="col-6 col-md-4 col-lg-3">
+            <div className="card text-center border-0 shadow-sm rounded-4 py-4">
+              <h5 className="fw-semibold mb-0">HTML5</h5>
             </div>
-            <div className="row">
-              <div className="col shadow rounded-2 p-3 m-2">React.js</div>
-              <div className="col shadow rounded-2 p-3 m-2">Node.js</div>
-              <div className="col shadow rounded-2 p-3 m-2">Express.js</div>
+          </div>
+
+          <div className="col-6 col-md-4 col-lg-3">
+            <div className="card text-center border-0 shadow-sm rounded-4 py-4">
+              <h5 className="fw-semibold mb-0">CSS3</h5>
             </div>
-            <div className="row">
-              <div className="col shadow rounded-2 p-3 m-2">MongoDB</div>
-              <div className="col shadow rounded-2 p-3 m-2">Mongoose</div>
-              <div className="col shadow rounded-2 p-3 m-2">Git</div>
+          </div>
+
+          <div className="col-6 col-md-4 col-lg-3">
+            <div className="card text-center border-0 shadow-sm rounded-4 py-4">
+              <h5 className="fw-semibold mb-0">JavaScript</h5>
             </div>
-            <div className="row">
-              <div className="col shadow rounded-2 p-3 m-2">GitHub</div>
-              <div className="col shadow rounded-2 p-3 m-2">VS Code</div>
-              <div className="col shadow rounded-2 p-3 m-2">Linux</div>
+          </div>
+
+          <div className="col-6 col-md-4 col-lg-3">
+            <div className="card text-center border-0 shadow-sm rounded-4 py-4">
+              <h5 className="fw-semibold mb-0">React.js</h5>
+            </div>
+          </div>
+
+          <div className="col-6 col-md-4 col-lg-3">
+            <div className="card text-center border-0 shadow-sm rounded-4 py-4">
+              <h5 className="fw-semibold mb-0">Node.js</h5>
+            </div>
+          </div>
+
+          <div className="col-6 col-md-4 col-lg-3">
+            <div className="card text-center border-0 shadow-sm rounded-4 py-4">
+              <h5 className="fw-semibold mb-0">Express.js</h5>
+            </div>
+          </div>
+
+          <div className="col-6 col-md-4 col-lg-3">
+            <div className="card text-center border-0 shadow-sm rounded-4 py-4">
+              <h5 className="fw-semibold mb-0">MongoDB</h5>
+            </div>
+          </div>
+
+          <div className="col-6 col-md-4 col-lg-3">
+            <div className="card text-center border-0 shadow-sm rounded-4 py-4">
+              <h5 className="fw-semibold mb-0">Git & GitHub</h5>
             </div>
           </div>
         </div>

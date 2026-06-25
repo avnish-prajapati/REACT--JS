@@ -1,0 +1,15 @@
+.card {
+  transition: .4s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  object-fit: cover;
+}
+
+.btn {
+  border-radius: 10px;
+}
