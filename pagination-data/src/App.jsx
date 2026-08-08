@@ -29,4 +29,9 @@ function App() {
   );
 }
 
+<<<<<<< HEAD
+=======
+//pagination Nhii h 
+
+>>>>>>> 584743c1ee8b67599659fc0a780040ab74c7208e
 export default App;
