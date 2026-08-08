@@ -5,7 +5,7 @@ import AddBlog from "./Screens/AddBlog";
 import EditBlog from "./Screens/EditBlog";
 
 function App() {
-  // BrowserRouter pura routing handle karega
+  // BrowserRouter pura routing handle karega // that sit
 
   return (
     <BrowserRouter>
